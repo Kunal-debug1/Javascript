@@ -97,6 +97,6 @@ console.log(undefined < 0);
 
  //===========
 
- console.log("2" == 2)
+ console.log("2" == 2);
 
- avoid all this comaprison
+ // avoid all this comparision
