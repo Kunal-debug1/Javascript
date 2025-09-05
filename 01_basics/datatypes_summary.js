@@ -40,3 +40,27 @@ const myFunction= function(){
 }
 
 console.log(typeof bigNumber);
+
+//************************************************************************ */
+
+//Stack Memory (used in Primitive Data types)
+//Heap Memory (used in Non-Primitive Data types)
+
+let myName = "Kunal Raju Gaikwad"
+
+let anotherName = myName 
+anotherName="Akash Raju Gaikwad"
+
+console.log(myName);
+console.log(anotherName);
+
+let user1={
+    email:"kunal@gmail.com",
+    number:9823372685
+}
+
+let user2= user1
+user2.email ="akash@gmail.com"
+
+console.log(user1);
+console.log(user2);
