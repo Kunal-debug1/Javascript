@@ -61,14 +61,42 @@
 
 // console.log(+"");
 
-let num1, num2, num3
-num1=num2=num3=4;
-console.log(num1);
+// let num1, num2, num3
+// num1=num2=num3=4;
+// console.log(num1);
 
-let gameCounter = 100
-gameCounter++;
-console.log(gameCounter);
+// let gameCounter = 100
+// gameCounter++;
+// console.log(gameCounter);
 
-let gameCounter1 = 100
-++gameCounter1;
-console.log(gameCounter1);
+// let gameCounter1 = 100
+// ++gameCounter1;
+// console.log(gameCounter1);
+ 
+/* Comparison Operators */
+
+// console.log(2 > 1);
+// console.log(2 >= 1);
+// console.log(2 < 1);
+// console.log(2 == 1);
+// console.log(2 != 1);
+
+// console.log("2">1); //convert into num
+// console.log("22">1);
+
+console.log(null>0);
+console.log(null==0);
+console.log(null>=0);//conversion value
+//reason is tha an quality check == and comparison < <>= <= work differently
+//comparisons convert null to a number , treating it as 0.
+//thats why(3) null>= 0 is true and (1) null>0 is false.
+
+console.log(undefined > 0);
+console.log(undefined == 0);
+console.log(undefined < 0);
+
+ //===========
+
+ console.log("2" == 2)
+
+ avoid all this comaprison
